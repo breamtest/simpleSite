@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Image Picker</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="title">Image Picker</h1>
+    </div>
+    
+    <h4 class = "subtitle">Please set a profile image...</h4>
+    <!--IMAGE PICKER BELOW-->
+    <div class="imagePicker">
+        <img src="./images/img.png" alt="image placeholder">
+        <br><br>
+        <input type="file" name="image" id="image">
+        <br><br>
+        <button id="clear">Clear</button>
+    </div>
+    <br><br>
+    <!--DATE MARKUP BELOW-->
+    <div class = "timeSection">
+        <label for="">Time</label> 
+        <p id="timeNow"></p>
+        <br>
+        <label for="">Date</label> 
+        <p id="dateToday"></p>
+    </div>
+
+    <!--FOOTER BELOW-->
+    <hr>
+    <footer>
+        <p>This is a &copy; <span id ="footerYear"></span> project by <b>Laurean Litunya</b></p>
+    </footer>
+
+<!--SCRIPTS BELOW-->
+    <script src = "index.js"></script>
+</body>
+</html>

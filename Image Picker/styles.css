@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff6eb;
+}
+
+.navbar{
+    background-color: rgb(170, 21, 170);
+    padding: 20px;
+}
+
+.title{
+    color:white;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: large;
+}
+
+.imagePicker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeSection{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+}
+
+label{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+hr{
+    width: 75%;
+    color:purple;
+    size: 3px;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+    display: block;
+}
+
+
+#clear{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: whitesmoke;
+    background-color: rgb(119, 0, 0);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+#image{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: auto;
+    margin-left: 10%;
+}
+
+#image::-webkit-file-upload-button{
+    background-color: purple;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
+
+
+
+
